@@ -1,13 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "But-Why"
-
-[pagination]
-  pagerSize = 5
+buildDrafts = true
+buildFuture = true
 
 [params]
   author = "Oren"
   description = "Simple AI hacks and weird but useful questions"
-theme = ""
-buildDrafts = true
-buildFuture = true

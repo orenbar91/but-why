@@ -1,5 +1,6 @@
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: sans-serif;
   background: #fafafa;
   color: #222;
   max-width: 700px;
@@ -7,37 +8,20 @@ body {
   padding: 2rem;
   line-height: 1.6;
 }
-
 h1 {
   font-size: 2em;
-  margin-bottom: 0.2em;
 }
-
-h1, h2, h3 {
-  color: #111;
-}
-
 a {
   color: #007acc;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 li {
-  margin-bottom: 1.5rem;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: #ddd;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }

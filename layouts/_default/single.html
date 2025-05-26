@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ .Title }}</title>
-  <meta name="description" content="{{ .Params.description }}">
-  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <a href="/">← Back to home</a>
+  <a href="/">← Back</a>
   <h1>{{ .Title }}</h1>
-  <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+  <small>{{ .Date.Format "January 2, 2006" }}</small>
   <hr>
   <div>{{ .Content }}</div>
 </body>
