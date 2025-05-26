@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <meta name="description" content="{{ .Params.description }}">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>{{ .Title }}</h1>
-    <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
-    <div>{{ .Content }}</div>
-  </div>
+  <a href="/">← Back to home</a>
+  <h1>{{ .Title }}</h1>
+  <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+  <hr>
+  <div>{{ .Content }}</div>
 </body>
 </html>
