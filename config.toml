@@ -1,0 +1,11 @@
+baseURL = "https://orenbar91.github.io/but-why/"
+languageCode = "en-us"
+title = "But-Why"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Oren"
+  description = "Simple AI hacks and weird but useful questions"
+theme = ""

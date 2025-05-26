@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Remote Office Life</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Remote Office Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budget</title>
+      <link>http://localhost:1313/tags/budget/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/budget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home Office</title>
+      <link>http://localhost:1313/tags/home-office/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/home-office/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Standing Desks</title>
+      <link>http://localhost:1313/tags/standing-desks/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/standing-desks/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+    <div>{{ .Content }}</div>
+  </div>
+</body>
+</html>
