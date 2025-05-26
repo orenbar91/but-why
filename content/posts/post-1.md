@@ -1,4 +1,4 @@
-------
+---
 title: "Why Do Cats Hate Water?"
 date: 2025-05-17
 description: "Exploring the science and weirdness behind feline water aversion."
