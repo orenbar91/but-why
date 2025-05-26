@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.description }}</p>
-    <ul>
-      {{ range .Pages }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
-        </li>
-      {{ end }}
-    </ul>
-  </div>
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>
+        <br><small>{{ .Date.Format "Jan 2, 2006" }}</small>
+      </li>
+    {{ end }}
+  </ul>
 </body>
 </html>
