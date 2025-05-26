@@ -11,11 +11,11 @@
   <p>{{ .Site.Params.description }}</p>
 
   <ul>
-    {{ range where .Site.RegularPages "Section" "posts" }}
+    {{ range where .Site.RegularPages "Type" "posts" }}
       <li style="margin-bottom: 2rem;">
         <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a><br>
         <small>{{ .Date.Format "Jan 2, 2006" }}</small>
-        <p>{{ .Summary }}</p>
+        <p>{{ .Summary | default (slice .Content | first 200) }}...</p>
       </li>
     {{ end }}
   </ul>
