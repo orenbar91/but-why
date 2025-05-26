@@ -9,3 +9,5 @@ title = "But-Why"
   author = "Oren"
   description = "Simple AI hacks and weird but useful questions"
 theme = ""
+buildDrafts = true
+buildFuture = true
