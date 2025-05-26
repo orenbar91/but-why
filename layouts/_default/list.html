@@ -9,11 +9,12 @@
 <body>
   <h1>{{ .Site.Title }}</h1>
   <p>{{ .Site.Params.description }}</p>
+
   <ul>
-    {{ range .Pages }}
+    {{ range where .Site.RegularPages "Section" "posts" }}
       <li>
-        <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>
-        <br><small>{{ .Date.Format "Jan 2, 2006" }}</small>
+        <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a><br>
+        <small>{{ .Date.Format "Jan 2, 2006" }}</small>
       </li>
     {{ end }}
   </ul>
